@@ -1,0 +1,32 @@
+{
+  "name": "turnstile-bypass",
+  "version": "0.0.0",
+  "description": "Solve Turnstile captchas automatically",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard && brittle test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukks/turnstile-bypass.git"
+  },
+  "author": "Lucas Barrena (LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukks/turnstile-bypass/issues"
+  },
+  "homepage": "https://github.com/lukks/turnstile-bypass#readme",
+  "devDependencies": {
+    "brittle": "^3.3.2",
+    "like-fetch": "^2.3.1",
+    "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "puppeteer": "^24.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
