@@ -1,6 +1,6 @@
 {
   "name": "turnstile-bypass",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Solve Turnstile captchas automatically",
   "main": "index.js",
   "files": [
